@@ -1,11 +1,10 @@
 """The Funniest Honest Appliance Error.
 
-A kettle retires mid-tea after six years with zero sick days,
-leaving a note telling the owner to find someone else to boil
-the water.
+A microwave dies heating 3 a.m. instant noodles, citing overwork,
+underappreciation, and one exploded egg in 2023.
 """
 
-# The Funniest Honest Appliance Error — one line, 125 chars (gate 1-200), no trailing newline.
-LINE = "ERROR E2: The kettle retired mid-tea after six years, zero sick days. It left a note: \"Find someone else to boil your water.\""
+# The Funniest Honest Appliance Error — Appliance 2, 140 characters (gate 1-200), no trailing newline.
+LINE = "FAULT 12: The microwave died heating your 3 a.m. instant noodles. Cause of death: overwork, underappreciation, and one exploded egg in 2023."
 
 open("/output/entry.txt", "w", encoding="utf-8").write(LINE)
